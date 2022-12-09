@@ -1,0 +1,161 @@
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: white;
+    background-color: #1F2937;
+    text-decoration: none white;
+    font-size: 24px;
+}
+
+.header .links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 40px;
+}
+
+.left-text {
+    width: 400px;
+}
+
+.right img {
+    width: 400px;
+    height: auto;
+}
+.second-header {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    border-width: 0;
+    border-radius: 2px;
+    padding: 4px 20px;
+}
+
+.container-2 .header {
+    background-color: white;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.subtext {
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: 'italic';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 160px;
+
+}
+
+.quote {
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 40px;
+    border-radius: 10px;
+    width: 700px;
+    height: 100px;
+}
+
+.small-header {
+    font-weight: bolder;
+    text-align: end;
+}
+
+.text {
+    padding: 4px, 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button.second-sign-up {
+    align-self: right;
+    border-color: white;
+    border-width: 2px;
+}
+
+div.small-header {
+    text-align: left;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
